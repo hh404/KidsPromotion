@@ -1,0 +1,62 @@
+PODS:
+  - CalendarKit (0.13.13):
+    - DateToolsSwift
+  - DateToolsSwift (5.0.0)
+  - EasyStepIndicator (1.2.1)
+  - KVKCalendar (0.3.6)
+  - Realm (5.3.6):
+    - Realm/Headers (= 5.3.6)
+  - Realm/Headers (5.3.6)
+  - RealmSwift (5.3.6):
+    - Realm (= 5.3.6)
+  - SelectionList (1.4.0)
+  - SnapKit (5.0.1)
+  - ZIKRouter/ServiceRouter (1.1.1)
+  - ZIKRouter/ViewRouter (1.1.1):
+    - ZIKRouter/ServiceRouter
+  - ZRouter (1.1.1):
+    - ZRouter/ServiceRouter (= 1.1.1)
+    - ZRouter/ViewRouter (= 1.1.1)
+  - ZRouter/ServiceRouter (1.1.1):
+    - ZIKRouter/ServiceRouter (>= 1.1.1)
+  - ZRouter/ViewRouter (1.1.1):
+    - ZIKRouter/ViewRouter (>= 1.1.1)
+    - ZRouter/ServiceRouter
+
+DEPENDENCIES:
+  - CalendarKit
+  - EasyStepIndicator
+  - KVKCalendar
+  - RealmSwift
+  - SelectionList
+  - SnapKit
+  - ZRouter
+
+SPEC REPOS:
+  trunk:
+    - CalendarKit
+    - DateToolsSwift
+    - EasyStepIndicator
+    - KVKCalendar
+    - Realm
+    - RealmSwift
+    - SelectionList
+    - SnapKit
+    - ZIKRouter
+    - ZRouter
+
+SPEC CHECKSUMS:
+  CalendarKit: 54944443a5cbd633a533b971408b00e879f54a7d
+  DateToolsSwift: 4207ada6ad615d8dc076323d27037c94916dbfa6
+  EasyStepIndicator: f14e93bf3ddb49af078432ba3457ce2c4c654f1a
+  KVKCalendar: ee5f86b9153916d2ad3c7d80709bfbb873e06946
+  Realm: cd400dd7e5b5bb5c8ae9842eecd73792369e6ec0
+  RealmSwift: 99a16dbdee5d6dfb3d91d56088a9f8c15c0871d1
+  SelectionList: 668c293ec698f1d0e514414c9feec8312023ff5d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ZIKRouter: 4efb9f01b4adbd2e15b184f42c7788d60b91a6d2
+  ZRouter: eece3cd9726f24839e0f522995e44045bfc71749
+
+PODFILE CHECKSUM: 8afaef47fe2522a44bc9b379aaae748240406a83
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-KidsPromotion/Pods-KidsPromotion-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CalendarKit/CalendarKit.framework
+${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework
+${BUILT_PRODUCTS_DIR}/EasyStepIndicator/EasyStepIndicator.framework
+${BUILT_PRODUCTS_DIR}/KVKCalendar/KVKCalendar.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SelectionList/SelectionList.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/ZIKRouter/ZIKRouter.framework
+${BUILT_PRODUCTS_DIR}/ZRouter/ZRouter.framework
