@@ -13,11 +13,12 @@ import ZIKRouter.Internal
 //import DateToolsSwift
 
 class NewTodayViewController: UIViewController, ViperView, TodayViewInput  {
+    var viewDataSource: ViperViewInput?
+    
     var routeSource: UIViewController?
     
     var eventHandler: ViperViewEventHandler?
     
-    var viewDataSource: Any?
     
 
     private var events = [Event]()

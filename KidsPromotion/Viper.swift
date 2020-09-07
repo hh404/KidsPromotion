@@ -47,7 +47,7 @@ extension NSObject: ViperViewEventHandler {
 protocol ViperView: class {
     var routeSource: UIViewController? {get set}
     var eventHandler: ViperViewEventHandler? {get set}
-    var viewDataSource: Any? {get set}
+    var viewDataSource: ViperViewInput? {get set}
 }
 
 protocol ViperPresenter: class {
@@ -64,5 +64,10 @@ protocol ViperWireframe: class {
 }
 
 protocol ViperRouter: class {
+    
+}
+
+
+protocol ViperViewInput: class {
     
 }
