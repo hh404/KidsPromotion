@@ -20,7 +20,6 @@ class NewTodayViewController: UIViewController, ViperView, TodayViewInput  {
     var eventHandler: ViperViewEventHandler?
     
     
-
     private var events = [Event]()
         
         private var selectDate: Date = {
