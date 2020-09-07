@@ -1,6 +1,0 @@
-framework module EasyStepIndicator {
-  umbrella header "EasyStepIndicator-umbrella.h"
-
-  export *
-  module * { export * }
-}

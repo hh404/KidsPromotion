@@ -1,6 +1,0 @@
-framework module Pods_KidsPromotionTests {
-  umbrella header "Pods-KidsPromotionTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

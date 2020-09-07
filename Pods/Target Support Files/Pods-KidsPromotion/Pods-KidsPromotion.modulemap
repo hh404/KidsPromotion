@@ -1,6 +1,0 @@
-framework module Pods_KidsPromotion {
-  umbrella header "Pods-KidsPromotion-umbrella.h"
-
-  export *
-  module * { export * }
-}
