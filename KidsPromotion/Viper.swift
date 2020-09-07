@@ -56,7 +56,6 @@ protocol ViperPresenter: class {
 
 protocol ViperInteractor: class {
     var dataSource: Any? {get set}
-    var eventHandler: Any? {get set}
 }
 
 
