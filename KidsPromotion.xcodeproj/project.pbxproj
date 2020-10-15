@@ -27,6 +27,10 @@
 		ECBB92682504BF3900F1D3B5 /* NewTodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB92672504BF3900F1D3B5 /* NewTodayViewController.swift */; };
 		ECBB926B2504E61800F1D3B5 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = ECBB926A2504E61800F1D3B5 /* events.json */; };
 		ECBB926D2504EF4E00F1D3B5 /* DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB926C2504EF4E00F1D3B5 /* DateTools.swift */; };
+		ECBB9270250A6C7000F1D3B5 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB926F250A6C7000F1D3B5 /* RecordViewController.swift */; };
+		ECBB9272250A6C8F00F1D3B5 /* RecordTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB9271250A6C8F00F1D3B5 /* RecordTCell.swift */; };
+		ECBB9275250A71B500F1D3B5 /* KidEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB9274250A71B500F1D3B5 /* KidEvent.swift */; };
+		ECBB9277250A73EA00F1D3B5 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB9276250A73EA00F1D3B5 /* DBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,10 @@
 		ECBB92672504BF3900F1D3B5 /* NewTodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodayViewController.swift; sourceTree = "<group>"; };
 		ECBB926A2504E61800F1D3B5 /* events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		ECBB926C2504EF4E00F1D3B5 /* DateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTools.swift; sourceTree = "<group>"; };
+		ECBB926F250A6C7000F1D3B5 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		ECBB9271250A6C8F00F1D3B5 /* RecordTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTCell.swift; sourceTree = "<group>"; };
+		ECBB9274250A71B500F1D3B5 /* KidEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidEvent.swift; sourceTree = "<group>"; };
+		ECBB9276250A73EA00F1D3B5 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		F2FA3BF07755FADCC38FD1FA /* Pods-KidsPromotion-KidsPromotionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsPromotion-KidsPromotionUITests.debug.xcconfig"; path = "Target Support Files/Pods-KidsPromotion-KidsPromotionUITests/Pods-KidsPromotion-KidsPromotionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F355812101BD7DEFC2D82927 /* Pods_KidsPromotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidsPromotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF40C4759976D1307D5DCDE /* Pods-KidsPromotionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsPromotionTests.debug.xcconfig"; path = "Target Support Files/Pods-KidsPromotionTests/Pods-KidsPromotionTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +165,8 @@
 		ECBB922725024BEB00F1D3B5 /* KidsPromotion */ = {
 			isa = PBXGroup;
 			children = (
+				ECBB9273250A719200F1D3B5 /* DB */,
+				ECBB926E250A6C3B00F1D3B5 /* Record */,
 				ECBB92692504E61800F1D3B5 /* Resources */,
 				ECBB92652503A84900F1D3B5 /* TimeChunk+DateComponents.swift */,
 				ECBB9258250276DE00F1D3B5 /* Today */,
@@ -209,6 +219,24 @@
 				ECBB926A2504E61800F1D3B5 /* events.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECBB926E250A6C3B00F1D3B5 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB926F250A6C7000F1D3B5 /* RecordViewController.swift */,
+				ECBB9271250A6C8F00F1D3B5 /* RecordTCell.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		ECBB9273250A719200F1D3B5 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB9274250A71B500F1D3B5 /* KidEvent.swift */,
+				ECBB9276250A73EA00F1D3B5 /* DBManager.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,13 +479,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBB9272250A6C8F00F1D3B5 /* RecordTCell.swift in Sources */,
 				ECBB926D2504EF4E00F1D3B5 /* DateTools.swift in Sources */,
 				ECBB92622502907600F1D3B5 /* TodayInterator.swift in Sources */,
+				ECBB9275250A71B500F1D3B5 /* KidEvent.swift in Sources */,
 				ECBB925A2502775C00F1D3B5 /* Viper.swift in Sources */,
+				ECBB9270250A6C7000F1D3B5 /* RecordViewController.swift in Sources */,
 				ECBB922D25024BEB00F1D3B5 /* ViewController.swift in Sources */,
 				ECBB92682504BF3900F1D3B5 /* NewTodayViewController.swift in Sources */,
 				ECBB9264250290E000F1D3B5 /* TodayPresenter.swift in Sources */,
 				ECBB92662503A84900F1D3B5 /* TimeChunk+DateComponents.swift in Sources */,
+				ECBB9277250A73EA00F1D3B5 /* DBManager.swift in Sources */,
 				ECBB922925024BEB00F1D3B5 /* AppDelegate.swift in Sources */,
 				ECBB926025027AC600F1D3B5 /* TodayViewModuleInput.swift in Sources */,
 				ECBB922B25024BEB00F1D3B5 /* SceneDelegate.swift in Sources */,
