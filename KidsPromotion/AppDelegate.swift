@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
 //        ZIKRouteRegistry.registerAll()
 //        DBManager.shared.test()
+        // just do it
         return true
     }
 
